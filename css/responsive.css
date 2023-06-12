@@ -1,0 +1,1443 @@
+
+@media (min-width: 320px) and (max-width: 575.98px) { 
+    /* ================================== common part start ================================================ */
+    .common_title {
+        width: auto;
+        padding-top: 61px;
+        padding-bottom: 39px;
+    }
+    .common_title h2 {
+        padding-bottom: 22px;
+        line-height: 30px;
+        font-size: 35px;
+    }
+    .common_title p {
+        line-height: 18px;
+        font-size: 14px;
+    }
+    /* ==================================  common part end ================================================ */
+    /* ================================== navbar start ================================================ */
+    .navbar-toggler:focus {
+     
+        box-shadow: none;
+    }
+    nav ul  {
+        background-color: white;
+        border: 1px solid #a53dff;
+        text-align: center;
+    }
+    nav ul li {
+     
+        border-bottom: 1px solid #a53dff;
+        margin-right: 0px;
+    }
+    nav ul :last-child {
+     
+        border-bottom: none;
+    }
+    .custom-btn{
+        text-align: center;
+    }
+     /* ================================== navbar end ================================================ */
+      /* ================================== banner start ================================================ */
+    .banner_content_custom__css{
+        order: 2;
+    }
+    .banner_img_custom__css{
+        order: 1;
+    }
+    .banner_content {
+        margin-top: 14px;
+    }
+    .banner_content h1 {
+        line-height: 48px;
+        width: auto;
+        font-size: 37px;
+    }
+    .banner_content p {
+        line-height: 21px;
+        width: auto;
+        margin: 13px 0px;
+        font-size: 15px;
+        padding-bottom: 28px;
+    }
+    .banner_overview {
+        display: flex;
+        flex-direction: column;
+     
+        margin-top: 46px;
+        padding-bottom: 50px;
+   
+    }
+    .banner_overview .item:first-child {
+        border-bottom-left-radius: 0px;
+        border-top-right-radius: 6px;
+    }
+    .banner_overview .item:last-child {
+       
+        border-top-right-radius: 0px;
+       
+        border-bottom-left-radius: 6px;
+    }
+   
+    .banner_img {
+        margin-top: -7px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .banner_img img {
+        width: 229px;
+       
+    }
+     /* ================================== banner end ================================================ */
+      /* ================================== my project start ================================================ */
+      .my_project_custom__css {
+        padding-bottom: 45px;
+    }
+    .my_project_img {
+        margin-top: 14px;
+        margin-left: 191px;
+    }
+    .my_project_img img {
+        width: 297px;
+    }
+    .my_project_icons {
+        bottom: -161px;
+        left: -251px;}
+        .my_project_content {
+            margin-top: 50px;
+            width: auto;
+        
+            border-right: 6px;
+            border: 1px solid transparent;
+            border-radius: 5px;
+            padding-bottom: 22px;
+        }
+        .my_project_content h4 {
+            line-height: 33px;
+            width: auto;
+            padding-top: 20px;
+            font-size: 22px;
+        }
+        .my_project_content p {
+            line-height: 21px;
+            width: auto;
+            margin-bottom: 11px;
+            font-size: 16px;
+        }
+        .my_project_btn .custom-btn {
+           
+            margin-right: 13px;
+        }
+        .my_project_download_btn {
+            border: 2px solid #a53dff;
+            width: auto;
+            padding: 9px 14px;
+         
+        }
+        .custom-btn {
+            padding: 6px 18px;
+        }
+        .custom-btn a {
+            font-size: 14px;
+        }
+         /* ================================== my project end ================================================ */
+         /* ================================== work process start ================================================ */
+         .work_process_row__custom_css {
+            padding-top: 0px;
+          padding-bottom: 45px;
+        }
+        .work_process_item1 {
+            width: auto;
+            padding-top: 135px;
+            padding-bottom: 35px;
+        }
+        .work_process_item1 h3 {
+            line-height: 41px;
+            
+            padding-bottom: 18px;
+            font-size: 38px;
+        }
+        .work_process_item1 p {
+            line-height: 20px;
+            padding-bottom: 16px;
+            font-size: 14px;
+        }
+        .work_process_item1 p :last-child {
+            padding-bottom: 0px;
+       
+        }
+        .work_process_item2 {
+         
+            flex-direction: column;
+        }
+        .work_process_custom_card {
+            width: auto;
+            height: auto;
+            margin-right: -1px;
+            margin-bottom: 14px;
+        }
+
+
+         /* ================================== work process end ================================================ */
+         /* ================================== portfolio start ================================================ */
+         .portfolio_custom_card {
+            width: auto;
+            margin-bottom: 24px;
+        }
+        .portfolio_custom_card_content img {
+            width: 290px;
+        }
+        .portfolio_custom_card_element {
+            padding: 24px 17px;
+        }
+         /* ================================== portfolio end ================================================ */
+         /* ================================== project idea start ================================================ */
+         .project_idea {
+            height: 337px;
+        }
+         .project_idea_content h3 {
+            font-size: 24px;
+            width: auto;
+            margin-top: 77px;
+            padding-bottom: 38px;
+        }
+        
+         /* ================================== project idea end ================================================ */
+         /* ================================== job details start ================================================ */
+         .job_details_content_item1 {
+            width: auto;
+            padding: 80px 0px;
+            margin-bottom: -159px;
+        }
+        .job_details_content_item1 h2 {
+            line-height: 32px;
+            padding-bottom: 23px;
+            font-size: 42px;
+        }
+        .job_details_content_item1 p {
+            line-height: 21px;
+            font-size: 13px;
+        }
+        .job_details_content_item1 .custom-btn {
+            margin-top: 2px;
+            display: block;
+        }
+        .job_details_content_item2 {
+            width: auto;
+            margin-bottom: 19px;
+            display: flex;
+text-align: center;
+        }
+        .job_details_content_item_content {
+            padding-left: 11px;
+        }
+        .job_details_content_item_content p {
+            line-height: 21px;
+            font-size: 13px;
+        }
+         /* ================================== job details end ================================================ */
+         /* ================================== happy clients start  ================================================ */
+         .happy_clients {
+           
+            height: 684px;
+        }
+        .happy_clients_logo img{
+            padding-bottom: 30px;
+        }
+        .happy_clients_logo {   
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+         /* ================================== happy clients end ================================================ */
+         /* ================================== testimonial start ================================================ */
+         .testimonial {
+            height: 469px;
+        }
+         .testimonial .common_title {
+            padding-top: 50px;
+        }
+        .testimonial_content {
+            width: auto;
+        }
+        .testimonial_content p {
+            line-height: 21px;
+            font-size: 12px;
+        }
+        .testimonial_content h3 {
+            line-height: 26px;
+            font-size: 24px;
+        }
+        .testimonial_content h4 {
+            padding-bottom: 31px;
+        }
+         /* ================================== testimonial  end ================================================ */
+         /* ================================== form start ================================================ */
+         .form_content_address {
+            margin-top: -24px;
+        }
+        .form_content_address_item {
+            width: auto;
+        }
+        .form_content2 {
+            padding: 0px 0px;
+            width: auto;
+        }
+        .form_content2 p {
+            display: flex;
+            text-align: center;
+            font-size: 17px;
+        }
+        .contact_box :first-child {
+            width: 100%;
+            margin-bottom: 16px;
+        }
+        .contact_box :last-child {
+            width: 100%;
+        }
+        .contact_form button {
+            margin-bottom: 47px;
+        }
+         /* ================================== form  end ================================================ */
+         /* ================================== footer start   ================================================ */
+         .footer_logo img {
+            margin-top: 108px;
+            width: 126px;
+            margin-left: -86px;
+        }
+        .footer_menu ul {
+            display: flex;
+           
+            padding-top: 93px;
+         
+        
+            flex-direction: column;
+        }
+        .footer_logo {
+            padding-right: 0px;
+            margin-left: 254px;
+        }
+        .footer_menu ul li {
+          margin-bottom: 5px;
+        }
+        footer .copyright {
+            line-height: 5px;
+            color: #fff;
+            margin-left: 35px;
+            /* padding-top: 400px; */
+            margin-right: 163px;
+        }
+        footer .copyright  h6{
+            line-height: 5px;
+           font-size: 12px;
+        }
+        footer .copyright h6 {
+            line-height: 12px;
+            font-size: 6px;
+            width: 80px;
+        }
+         /* ================================== footer end ================================================ */
+
+
+        
+       
+
+
+}
+
+
+
+
+@media (min-width: 576px) and (max-width: 767.98px) { 
+
+     /* ================================== common part start ================================================ */
+     .common_title {
+        width: auto;
+        padding-top: 61px;
+        padding-bottom: 39px;
+    }
+    .common_title h2 {
+        padding-bottom: 22px;
+        line-height: 30px;
+        font-size: 35px;
+    }
+    .common_title p {
+        line-height: 18px;
+        font-size: 14px;
+    }
+    /* ==================================  common part end ================================================ */
+
+/* ================================== navbar start ================================================ */
+.navbar-toggler:focus {
+     
+    box-shadow: none;
+}
+nav ul  {
+    background-color: white;
+    border: 1px solid #a53dff;
+    text-align: center;
+}
+nav ul li {
+ 
+    border-bottom: 1px solid #a53dff;
+    margin-right: 0px;
+}
+nav ul :last-child {
+ 
+    border-bottom: none;
+}
+.custom-btn{
+    text-align: center;
+}
+ /* ================================== navbar end ================================================ */
+ /* ================================== banner start ================================================ */
+ .banner_content_custom__css{
+    order: 2;
+}
+.banner_img_custom__css{
+    order: 1;
+}
+.banner_content {
+    margin-top: 14px;
+}
+.banner_content h1 {
+    line-height: 48px;
+    width: auto;
+    font-size: 37px;
+}
+.banner_content p {
+    line-height: 21px;
+    width: auto;
+    margin: 13px 0px;
+    font-size: 15px;
+    padding-bottom: 28px;
+}
+.banner_overview {
+    display: flex;
+    flex-direction: column;
+ 
+    margin-top: 46px;
+    padding-bottom: 50px;
+
+}
+.banner_overview .item:first-child {
+    border-bottom-left-radius: 0px;
+    border-top-right-radius: 6px;
+}
+.banner_overview .item:last-child {
+   
+    border-top-right-radius: 0px;
+   
+    border-bottom-left-radius: 6px;
+}
+
+.banner_img {
+    margin-top: -7px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.banner_img img {
+    width: 229px;
+   
+}
+ /* ================================== banner end ================================================ */
+  /* ================================== my project start ================================================ */
+  .my_project_custom__css {
+    padding-bottom: 45px;
+}
+.my_project_img {
+    margin-top: 14px;
+    margin-left: 191px;
+}
+.my_project_img img {
+    width: 297px;
+}
+.my_project_icons {
+    bottom: -161px;
+    left: -251px;}
+    .my_project_content {
+        margin-top: 50px;
+        width: auto;
+    
+        border-right: 6px;
+        border: 1px solid transparent;
+        border-radius: 5px;
+        padding-bottom: 22px;
+    }
+    .my_project_content h4 {
+        line-height: 33px;
+        width: auto;
+        padding-top: 20px;
+        font-size: 22px;
+    }
+    .my_project_content p {
+        line-height: 21px;
+        width: auto;
+        margin-bottom: 11px;
+        font-size: 16px;
+    }
+    .my_project_btn .custom-btn {
+       
+        margin-right: 13px;
+    }
+    .my_project_download_btn {
+        border: 2px solid #a53dff;
+        width: auto;
+        padding: 9px 14px;
+     
+    }
+    .custom-btn {
+        padding: 6px 18px;
+    }
+    .custom-btn a {
+        font-size: 14px;
+    }
+     /* ================================== my project end ================================================ */
+     /* ================================== work process start ================================================ */
+     .work_process_row__custom_css {
+        padding-top: 0px;
+      padding-bottom: 45px;
+    }
+    .work_process_item1 {
+        width: auto;
+        padding-top: 135px;
+        padding-bottom: 35px;
+    }
+  
+    .work_process_item1 h3 {
+        line-height: 41px;
+        
+        padding-bottom: 18px;
+        font-size: 38px;
+    }
+    .work_process_item1 p {
+        line-height: 20px;
+        padding-bottom: 16px;
+        font-size: 14px;
+    }
+    .work_process_item1 p :last-child {
+        padding-bottom: 0px;
+   
+    }
+    .work_process_item2 {
+     
+        flex-direction: column;
+    }
+    .work_process_custom_card {
+        width: auto;
+        height: auto;
+        margin-right: -1px;
+        margin-bottom: 14px;
+    }
+    .work_process_custom_card_content {
+     
+        width: auto;
+    }
+    .work_process_custom_card_content h4 {
+        width: auto;
+    }
+    .work_process_custom_card_content p {
+        width: auto;
+      
+    }
+
+
+     /* ================================== work process end ================================================ */
+          /* ================================== portfolio start ================================================ */
+          .portfolio_custom_card {
+            width: auto;
+            margin-bottom: 24px;
+        }
+        .portfolio_custom_card_content{
+            text-align: center;
+        }
+        .portfolio_custom_card_content img {
+            width: auto;
+            margin-top: 20px;
+        }
+        .portfolio_custom_card_element {
+            padding: 24px 17px;
+        }
+         /* ================================== portfolio end ================================================ */
+          /* ================================== project idea start ================================================ */
+          .project_idea {
+            height: 337px;
+        }
+         .project_idea_content h3 {
+            font-size: 24px;
+            width: auto;
+            margin-top: 77px;
+            padding-bottom: 38px;
+        }
+        
+         /* ================================== project idea end ================================================ */
+          /* ================================== job details start ================================================ */
+          .job_details_content_item1 {
+            width: auto;
+            padding: 80px 0px;
+            margin-bottom: -159px;
+        }
+        .job_details_content_item1 h2 {
+            line-height: 32px;
+            padding-bottom: 23px;
+            font-size: 42px;
+        }
+        .job_details_content_item1 p {
+            line-height: 21px;
+            font-size: 13px;
+        }
+        .job_details_content_item1 .custom-btn {
+            margin-top: 2px;
+            display: block;
+        }
+        .job_details_content_item2 {
+            width: auto;
+            margin-bottom: 19px;
+            display: flex;
+text-align: center;
+        }
+        .job_details_content_item_content {
+            padding-left: 11px;
+        }
+        .job_details_content_item_content p {
+            line-height: 21px;
+            font-size: 13px;
+        }
+         /* ================================== job details end ================================================ */
+          /* ================================== happy clients start  ================================================ */
+          .happy_clients {
+           
+            height: 684px;
+        }
+        .happy_clients_logo img{
+            padding-bottom: 30px;
+        }
+        .happy_clients_logo {   
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+         /* ================================== happy clients end ================================================ */
+         /* ================================== testimonial start ================================================ */
+         .testimonial {
+            height: 469px;
+        }
+         .testimonial .common_title {
+            padding-top: 50px;
+        }
+        .testimonial_content {
+            width: auto;
+        }
+        .testimonial_content p {
+            line-height: 21px;
+            font-size: 12px;
+        }
+        .testimonial_content h3 {
+            line-height: 26px;
+            font-size: 24px;
+        }
+        .testimonial_content h4 {
+            padding-bottom: 31px;
+        }
+         /* ================================== testimonial  end ================================================ */
+         /* ================================== form start ================================================ */
+         .form_content_address {
+            margin-top: -24px;
+        }
+        .form_content_address_item {
+            width: auto;
+        }
+        .form_content2 {
+            padding: 0px 0px;
+            width: auto;
+        }
+        .form_content2 p {
+            display: flex;
+            text-align: center;
+            font-size: 17px;
+        }
+        .contact_box :first-child {
+            width: 100%;
+            margin-bottom: 16px;
+        }
+        .contact_box :last-child {
+            width: 100%;
+        }
+        .contact_form button {
+            margin-bottom: 47px;
+        }
+         /* ================================== form  end ================================================ */
+/* ================================== footer start   ================================================ */
+.footer_logo {
+	padding-right: 26px;
+	margin-left: 233px;
+}
+.footer_logo img {
+	margin-top: 108px;
+	width: 168px;
+	margin-left: -103px;
+}
+.footer_menu ul {
+    display: flex;
+   
+    padding-top: 93px;
+ 
+
+    flex-direction: column;
+}
+
+
+.footer_menu ul li {
+  margin-bottom: 5px;
+}
+
+footer .copyright {
+	line-height: 5px;
+	margin-left: 55px;
+	margin-right: 154px;
+}
+
+footer .copyright h6 {
+	line-height: 12px;
+	font-size: 15px;
+	width: 188px;
+}
+ /* ================================== footer end ================================================ */
+
+
+
+
+
+
+}
+
+
+
+
+
+@media (min-width: 768px) and (max-width: 991.98px) { 
+
+ /* ================================== common part start ================================================ */
+ .common_title {
+    width: auto;
+    padding-top: 61px;
+    padding-bottom: 39px;
+}
+.common_title h2 {
+    padding-bottom: 22px;
+    line-height: 30px;
+    font-size: 35px;
+}
+.common_title p {
+    line-height: 18px;
+    font-size: 14px;
+}
+/* ==================================  common part end ================================================ */
+
+/* ================================== navbar start ================================================ */
+.navbar-toggler:focus {
+ 
+box-shadow: none;
+}
+nav ul  {
+background-color: white;
+border: 1px solid #a53dff;
+text-align: center;
+margin-top: 20px;
+}
+nav ul li {
+
+border-bottom: 1px solid #a53dff;
+margin-right: 0px;
+}
+nav ul :last-child {
+
+border-bottom: none;
+}
+.custom-btn{
+text-align: center;
+}
+/* ================================== navbar end ================================================ */
+/* ================================== banner start ================================================ */
+.banner_content_custom__css{
+    order: 2;
+}
+.banner_img_custom__css{
+    order: 1;
+}
+.banner_content {
+    margin-top: 14px;
+}
+.banner_content h1 {
+    line-height: 48px;
+    width: auto;
+    font-size: 37px;
+}
+.banner_content p {
+    line-height: 21px;
+    width: auto;
+    margin: 13px 0px;
+    font-size: 15px;
+    padding-bottom: 28px;
+}
+.banner_overview {
+    display: flex;
+    flex-direction: row;
+ 
+    margin-top: 46px;
+    padding-bottom: 50px;
+
+}
+
+
+.banner_img {
+    margin-top: -7px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.banner_img img {
+    width: 229px;
+   
+}
+ /* ================================== banner end ================================================ */
+  /* ================================== my project start ================================================ */
+  .my_project_custom__css {
+    padding-bottom: 45px;
+}
+.my_project_img {
+    margin-top: 14px;
+    margin-left: 191px;
+}
+.my_project_img img {
+    width: 297px;
+}
+.my_project_icons {
+    bottom: -161px;
+    left: -251px;}
+    .my_project_content {
+        margin-top: 50px;
+        width: auto;
+    
+        border-right: 6px;
+        border: 1px solid transparent;
+        border-radius: 5px;
+        padding-bottom: 22px;
+    }
+    .my_project_content h4 {
+        line-height: 33px;
+        width: auto;
+        padding-top: 20px;
+        font-size: 22px;
+    }
+    .my_project_content p {
+        line-height: 21px;
+        width: auto;
+        margin-bottom: 11px;
+        font-size: 16px;
+    }
+    .my_project_btn .custom-btn {
+       
+        margin-right: 13px;
+    }
+    .my_project_download_btn {
+        border: 2px solid #a53dff;
+        width: auto;
+        padding: 9px 14px;
+     
+    }
+    .custom-btn {
+        padding: 6px 18px;
+    }
+    .custom-btn a {
+        font-size: 14px;
+    }
+     /* ================================== my project end ================================================ */
+     /* ================================== work process start ================================================ */
+     .work_process_row__custom_css {
+        padding-top: 0px;
+      padding-bottom: 45px;
+    }
+    .work_process_item1 {
+        width: auto;
+        padding-top: 135px;
+        padding-bottom: 35px;
+    }
+  
+    .work_process_item1 h3 {
+        line-height: 41px;
+        
+        padding-bottom: 18px;
+        font-size: 38px;
+    }
+    .work_process_item1 p {
+        line-height: 20px;
+        padding-bottom: 16px;
+        font-size: 14px;
+    }
+    .work_process_item1 p :last-child {
+        padding-bottom: 0px;
+   
+    }
+    .work_process_item2 {
+     
+        flex-direction: column;
+    }
+    .work_process_custom_card {
+        width: auto;
+        height: auto;
+        margin-right: -1px;
+        margin-bottom: 14px;
+    }
+    .work_process_custom_card_content {
+     
+        width: auto;
+    }
+    .work_process_custom_card_content h4 {
+        width: auto;
+    }
+    .work_process_custom_card_content p {
+        width: auto;
+      
+    }
+
+
+     /* ================================== work process end ================================================ */
+          /* ================================== portfolio start ================================================ */
+          .portfolio_custom_card {
+            width: auto;
+            margin-bottom: 24px;
+        }
+        .portfolio_custom_card_content{
+            text-align: center;
+        }
+        .portfolio_custom_card_content img {
+            width: auto;
+            margin-top: 20px;
+        }
+        .portfolio_custom_card_element {
+            padding: 24px 17px;
+        }
+         /* ================================== portfolio end ================================================ */
+          /* ================================== project idea start ================================================ */
+          .project_idea {
+            height: 337px;
+        }
+         .project_idea_content h3 {
+            font-size: 24px;
+            width: auto;
+            margin-top: 77px;
+            padding-bottom: 38px;
+        }
+        
+         /* ================================== project idea end ================================================ */
+          /* ================================== job details start ================================================ */
+          .job_details_content_item1 {
+            width: auto;
+            padding: 80px 0px;
+            margin-bottom: -159px;
+        }
+        .job_details_content_item1 h2 {
+            line-height: 32px;
+            padding-bottom: 23px;
+            font-size: 42px;
+        }
+        .job_details_content_item1 p {
+            line-height: 21px;
+            font-size: 13px;
+        }
+        .job_details_content_item1 .custom-btn {
+            margin-top: 2px;
+            display: block;
+        }
+        .job_details_content_item2 {
+            width: auto;
+            margin-bottom: 19px;
+            display: flex;
+text-align: center;
+        }
+        .job_details_content_item_content {
+            padding-left: 11px;
+        }
+        .job_details_content_item_content p {
+            line-height: 21px;
+            font-size: 13px;
+        }
+         /* ================================== job details end ================================================ */
+          /* ================================== happy clients start  ================================================ */
+          .happy_clients {
+           
+            height: 684px;
+        }
+        .happy_clients_logo img{
+            padding-bottom: 30px;
+        }
+        .happy_clients_logo {   
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+         /* ================================== happy clients end ================================================ */
+         /* ================================== testimonial start ================================================ */
+         .testimonial {
+            height: 469px;
+        }
+         .testimonial .common_title {
+            padding-top: 50px;
+        }
+        .testimonial_content {
+            width: auto;
+        }
+        .testimonial_content p {
+            line-height: 21px;
+            font-size: 12px;
+        }
+        .testimonial_content h3 {
+            line-height: 26px;
+            font-size: 24px;
+        }
+        .testimonial_content h4 {
+            padding-bottom: 31px;
+        }
+         /* ================================== testimonial  end ================================================ */
+         /* ================================== form start ================================================ */
+         .form_content_address {
+            margin-top: -24px;
+        }
+        .form_content_address_item {
+            width: auto;
+        }
+        .form_content2 {
+            padding: 0px 0px;
+            width: auto;
+        }
+        .form_content2 p {
+            display: flex;
+            text-align: center;
+            font-size: 17px;
+        }
+        .contact_box :first-child {
+            width: 100%;
+            margin-bottom: 16px;
+        }
+        .contact_box :last-child {
+            width: 100%;
+        }
+        .contact_form button {
+            margin-bottom: 47px;
+        }
+         /* ================================== form  end ================================================ */
+/* ================================== footer start   ================================================ */
+.footer_logo {
+	padding-right: 26px;
+	margin-left: 233px;
+}
+.footer_logo img {
+	margin-top: 108px;
+	width: 168px;
+	margin-left: -103px;
+}
+.footer_menu ul {
+    display: flex;
+   
+    padding-top: 93px;
+ 
+
+    flex-direction: column;
+}
+
+
+.footer_menu ul li {
+  margin-bottom: 5px;
+}
+
+footer .copyright {
+	line-height: 5px;
+	margin-left: 55px;
+	margin-right: 154px;
+}
+
+footer .copyright h6 {
+	line-height: 12px;
+	font-size: 15px;
+	width: 188px;
+}
+ /* ================================== footer end ================================================ */
+
+
+
+
+
+
+
+}
+
+
+@media (min-width: 992px) and (max-width:1199.98px) { 
+
+/* ==================================== navbar start ================================== */
+nav ul li {
+	margin-right: 9px;
+}
+/* ==================================== navbar end ================================== */
+/* ================================== banner start ================================================ */
+.banner_content_custom__css{
+    order: 2;
+}
+.banner_img_custom__css{
+    order: 1;
+}
+.banner_content {
+    margin-top: 14px;
+}
+.banner_content h1 {
+    line-height: 48px;
+    width: auto;
+    font-size: 37px;
+}
+.banner_content p {
+    line-height: 21px;
+    width: auto;
+    margin: 13px 0px;
+    font-size: 15px;
+    padding-bottom: 28px;
+}
+.banner_overview {
+    display: flex;
+    flex-direction: row;
+ 
+    margin-top: 46px;
+    padding-bottom: 50px;
+
+}
+
+.banner_img {
+    margin-top: -7px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.banner_img img {
+    width: 302px;
+   
+}
+ /* ================================== banner end ================================================ */
+ /* ================================== my project start ================================================ */
+ .my_project_custom__css {
+    padding-bottom: 45px;
+}
+.my_project_img {
+    margin-top: 14px;
+    margin-left: 191px;
+}
+.my_project_img img {
+    width: 297px;
+}
+.my_project_icons {
+    bottom: -161px;
+    left: -251px;}
+    .my_project_content {
+        margin-top: 50px;
+        width: auto;
+    
+        border-right: 6px;
+        border: 1px solid transparent;
+        border-radius: 5px;
+        padding-bottom: 22px;
+    }
+    .my_project_content h4 {
+        line-height: 33px;
+        width: auto;
+        padding-top: 20px;
+        font-size: 22px;
+    }
+    .my_project_content p {
+        line-height: 21px;
+        width: auto;
+        margin-bottom: 11px;
+        font-size: 16px;
+    }
+    .my_project_btn .custom-btn {
+       
+        margin-right: 13px;
+    }
+    .my_project_download_btn {
+        border: 2px solid #a53dff;
+        width: auto;
+        padding: 9px 14px;
+     
+    }
+    .custom-btn {
+        padding: 6px 18px;
+    }
+    .custom-btn a {
+        font-size: 14px;
+    }
+     /* ================================== my project end ================================================ */
+     /* ================================== work process start ================================================ */
+     .work_process_row__custom_css {
+        padding-top: 0px;
+      padding-bottom: 45px;
+    }
+    .work_process_item1 {
+        width: auto;
+        padding-top: 135px;
+        padding-bottom: 35px;
+    }
+  
+    .work_process_item1 h3 {
+        line-height: 41px;
+        
+        padding-bottom: 18px;
+        font-size: 38px;
+    }
+    .work_process_item1 p {
+        line-height: 20px;
+        padding-bottom: 16px;
+        font-size: 14px;
+    }
+    .work_process_item1 p :last-child {
+        padding-bottom: 0px;
+   
+    }
+    
+    .work_process_custom_card {
+        width: 462px;
+        margin-bottom: 15px;
+    }
+    .work_process_custom_card_content {
+        width: auto;
+        text-align: center;
+    }
+    .work_process_custom_card_content h4 {
+        width: auto;
+    }
+    .work_process_custom_card_content p {
+        width: auto;
+    }
+
+     /* ================================== work process end ================================================ */
+      /* ================================== job details start ================================================ */
+      .job_details_content_item1 {
+        width: auto;
+        padding: 80px 0px;
+        margin-bottom: -159px;
+    }
+    .job_details_content_item1 h2 {
+        line-height: 32px;
+        padding-bottom: 23px;
+        font-size: 42px;
+    }
+    .job_details_content_item1 p {
+        line-height: 21px;
+        font-size: 13px;
+    }
+    .job_details_content_item1 .custom-btn {
+        margin-top: 2px;
+        display: inline-block;
+    }
+    .job_details_content_item2 {
+        width: auto;
+        margin-bottom: 19px;
+        display: flex;
+text-align: center;
+    }
+    .job_details_content_item_content {
+        padding-left: 11px;
+    }
+    .job_details_content_item_content p {
+        line-height: 21px;
+        font-size: 13px;
+    }
+     /* ================================== job details end ================================================ */
+ /* ================================== form start ================================================ */
+ .form_content_address {
+    margin-top: -24px;
+}
+.form_content_address_item {
+    width: auto;
+}
+.form_content2 {
+    padding: 0px 0px;
+    width: auto;
+}
+.form_content2 p {
+    display: flex;
+    text-align: center;
+    font-size: 17px;
+}
+.contact_box :first-child {
+    width: 100%;
+    margin-bottom: 16px;
+}
+.contact_box :last-child {
+    width: 100%;
+}
+.contact_form button {
+    margin-bottom: 47px;
+}
+ /* ================================== form  end ================================================ */
+/* ================================== footer start   ================================================ */
+
+
+.footer_logo {
+	padding-right: 68px;
+	margin-left: 269px;
+	padding-top: 80px;
+}
+.footer_logo img {
+	margin-top: 108px;
+	width: 168px;
+	margin-left: -103px;
+}
+.footer_menu ul {
+	display: flex;
+	padding-top: 195px;
+	flex-direction: row;
+}
+.footer_menu ul li {
+	margin-bottom: 5px;
+	column-gap: 10px;
+	margin-right: -24px;
+}
+
+footer .copyright {
+line-height: 5px;
+margin-left: 55px;
+margin-right: 154px;
+}
+
+footer .copyright h6 {
+line-height: 12px;
+font-size: 15px;
+width: 188px;
+}
+/* ================================== footer end ================================================ */
+
+
+
+
+}
+
+
+
+
+@media (min-width: 1200px) and (max-width: 1399.98px) { 
+/* ======================================== bannner start ============================================= */
+    .banner_overview .item {
+        padding: 15px 19px;
+        width: 193px;
+    }
+/* ======================================== bannner end ============================================= */
+/* ======================================== work process start============================================= */
+.work_process_row__custom_css {
+	padding-top: 134px;
+	padding-bottom: 65px;
+}
+.work_process_item1 {
+	width: 495px;
+}
+.work_process_custom_card_content {
+	padding: 17px 17px;
+	width: 281px;
+}
+/* ======================================== work process end  ============================================= */
+/* ======================================== portfolio start  ============================================= */
+.portfolio_custom_card {
+	width: 365px;
+
+}
+.portfolio_custom_card_content img {
+	width: 364px;
+}
+/* ======================================== portfolio end ============================================= */
+/* ======================================== job details start ============================================= */
+.job_details_content_item1 {
+	width: 475px;
+	padding: 243px 0px;
+}
+.job_details_content_item2 {
+	width: 567px;
+	margin-bottom: 13px;
+	
+}
+/* ======================================== job details end ============================================= */
+/* ======================================== happy clients start ============================================= */
+.happy_clients {
+	height: 371px;
+}
+.happy_clients .common_title {
+	width: 577px;
+	text-align: center;
+	margin: 0 auto;
+	padding-top: 11px;
+	padding-bottom: 70px;
+}
+.happy_clients_logo img {
+	width: 140px;
+    margin-right: 45px;
+}
+/* ======================================== happy clients end ============================================= */
+/* ======================================== form start ============================================= */
+.form .common_title {
+	width: 536px;
+}
+
+ .form .common_title h2 {
+    padding-bottom: 14px;
+    font-size: 35px;}
+
+
+    .form .common_title p {
+        line-height: 21px;
+        font-size: 16px;
+    }
+    .form_content_address_item {
+        width: 461px;
+        margin-bottom: -4px;
+    }
+    .form_content2 {
+        width: 557px;
+    }
+
+
+/* ======================================== form  end ============================================= */
+/* ======================================== footer start ============================================= */
+.footer_logo {
+	padding-right: 95px;
+}
+.footer_logo img {
+
+	width: 203px;
+}
+
+.footer_menu ul {
+	column-gap: 2px;
+
+}
+footer .copyright {
+	margin-left: 99px;
+}
+
+
+
+/* ======================================== footer end ============================================= */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}

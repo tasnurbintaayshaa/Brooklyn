@@ -1,0 +1,812 @@
+/* ====================================== Common css start ============================== */
+html,
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ol,
+ul,
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+  margin: 0;
+  padding: 0;
+}
+html:focus-within {
+  scroll-behavior: smooth;
+}
+ul,
+ol {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+.font-w {
+  font-family: "Work Sans", sans-serif;
+}
+.font-p {
+  font-family: "Poppins", sans-serif;
+}
+.font-l {
+  font-weight: 300;
+}
+.font-r {
+  font-weight: 400;
+}
+.font-m {
+  font-weight: 500;
+}
+.font-sb {
+  font-weight: 600;
+}
+.font-12 {
+  font-size: 12px;
+}
+.font-14 {
+  font-size: 14px;
+}
+.font-16 {
+  font-size: 16px;
+}
+.font-18 {
+  font-size: 18px;
+}
+.font-20 {
+  font-size: 20px;
+}
+.font-24 {
+  font-size: 24px;
+}
+.font-32 {
+  font-size: 32px;
+}
+.font-38 {
+  font-size: 38px;
+}
+.font-48 {
+  font-size: 48px;
+}
+
+.font-72 {
+  font-size: 72px;
+}
+.primary-color {
+  background-color: #a53dff;
+}
+.custom-btn {
+  padding: 12px 24px;
+  border-radius: 4px !important;
+  -webkit-border-radius: 4px !important;
+  -moz-border-radius: 4px !important;
+  -ms-border-radius: 4px !important;
+  -o-border-radius: 4px !important;
+}
+.custom-btn a {
+  text-transform: capitalize;
+}
+.common_title {
+  width: 577px;
+  text-align: center;
+  margin: 0 auto;
+  padding-top: 100px;
+  padding-bottom: 70px;
+}
+.common_title h2 {
+  padding-bottom: 24px;
+  color: #132238;
+  line-height: 56px;
+}
+.common_title p {
+  color: #87909d;
+  line-height: 24px;
+}
+
+/* ================================== Common css end ================================== */
+/* ================================== nav bar css start ================================== */
+
+nav ul li {
+  margin-right: 24px;
+}
+nav {
+  margin-top: 20px;
+}
+/* ================================== nav bar css end ================================== */
+/* ================================== banner css start ================================== */
+.banner_content {
+  margin-top: 178px;
+}
+.banner_content h1 {
+  line-height: 84px;
+  width: 576px;
+}
+.banner_content p {
+  line-height: 24px;
+  width: 648px;
+  margin: 24px 0px;
+}
+.banner_content .custom-btn {
+  display: inline-block;
+}
+.banner_overview {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 155px;
+  padding-bottom: 120px;
+ 
+
+    
+}
+
+.banner_overview .item {
+  padding: 15px 42px;
+  margin-right: 1px;
+  text-align: center;
+  background-color: #f5ebff;
+}
+.banner_overview .item:first-child {
+  
+ border: 1px solid white;
+    border-top-left-radius: 6px;
+    border-bottom-left-radius:6px ;
+  
+}
+.banner_overview .item:last-child {
+  
+ border: 1px solid white;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius:6px ;
+  
+}
+
+
+.banner_overview .item h3 {
+  color: #424e60;
+  line-height: 40px;
+}
+.banner_overview .item p {
+  color: #697484;
+  line-height: 24px;
+  width: 147px;
+}
+
+.banner_img {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 126px;
+  
+}
+.banner_img img {
+width: 536px;
+
+}
+/* ================================== banner css end ================================== */
+/* ================================== my project css start ================================== */
+.my_project_custom__css {
+  background-color: #fff;
+  box-shadow: 0px 36px 105px rgba(43, 56, 76, 0.1);
+  border-radius: 16px;
+  padding-bottom: 148px;
+  position: relative;
+  bottom: -69px;
+}
+.my_project {
+  background-color: #eceef1;
+}
+.my_project_img {
+  margin-top: 112px;
+  margin-left: 112px;
+}
+.my_project_img img {
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+.my_project_icons {
+  display: flex;
+  flex-direction: row;
+
+  bottom: -227px;
+  left: -326px;
+  position: relative;
+  background-color: #fff;
+  height: 55px;
+  width: 225px;
+  box-shadow: 0px 12px 64px rgba(28, 25, 25, 0.12);
+  border: 1px solid transparent;
+  border-radius: 4px;
+}
+.my_project_icons i {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  width: 48px;
+  height: 48px;
+  font-size: 20px;
+  padding: 12px 12px;
+  color: #a53dff;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+}
+.my_project_icons i:hover {
+  color: #fff;
+  background-color: #a53dff;
+}
+.my_project_content {
+  margin-top: 165px;
+  width: 536px;
+  background-color: #e5e8eb;
+}
+.my_project_content h4 {
+  line-height: 50px;
+  width: 536px;
+  color: #132238;
+  margin-bottom: 32px;
+}
+.my_project_content p {
+  line-height: 24px;
+  width: 536px;
+  color: #87909d;
+  margin-bottom: 16px;
+}
+.my_project_btn {
+  margin-top: 28px;
+  display: flex;
+  flex-direction: row;
+}
+.my_project_btn .custom-btn {
+  display: inline-block;
+  margin-right: 24px;
+}
+.my_project_btn .my_project_download_btn a {
+  color: #a53dff;
+}
+.my_project_btn .my_project_download_btn a:last-child {
+  margin-left: 12px;
+}
+
+.my_project_download_btn {
+  border: 2px solid #a53dff;
+  width: 190px;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+  text-align: center;
+  padding: 12px 24px;
+  background-color: #fff;
+}
+/* ================================== my project css end ================================== */
+/* ================================== work process css start ================================== */
+.work_process_row__custom_css {
+  padding-top: 221px;
+  padding-bottom: 140px;
+}
+.work_process {
+  background-color: #e5e8eb;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.work_process_item1 {
+  width: 529px;
+  padding: 182px 0px;
+}
+.work_process_item1 h3 {
+  line-height: 56px;
+  color: #132238;
+  padding-bottom: 24px;
+}
+.work_process_item1 p {
+  line-height: 24px;
+  color: #697484;
+  padding-bottom: 16px;
+}
+.work_process_custom_card {
+  width: 323px;
+  height: 276px;
+  background-color: #fff;
+  border: 1px solid transparent;
+  border-radius: 12px;
+  -webkit-border-radius: 12px;
+  -moz-border-radius: 12px;
+  -ms-border-radius: 12px;
+  -o-border-radius: 12px;
+  margin-right: 13px;
+  margin-bottom: 28px;
+  box-shadow: 32px 32px 124px rgba(43, 56, 76, 0.1);
+}
+.work_process_custom_card_content {
+  padding: 32px 32px;
+  width: 259px;
+}
+.work_process_custom_card_content p {
+  width: 248px;
+  line-height: 24px;
+}
+.work_process_item2 {
+  display: flex;
+  flex-direction: row;
+}
+.work_process_custom_card .img a {
+  padding: 22px 24px;
+  border-radius: 4px;
+  background-color: #f3e9fd;
+  color: #a53dff;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+  display: inline-block;
+}
+.work_process_custom_card .img a i {
+  font-size: 30px;
+}
+.work_process_custom_card a:hover {
+  background-color: #a53dff;
+  color: #fff;
+}
+.work_process_custom_card_content h4 {
+  width: 259px;
+  line-height: 24px;
+  padding-top: 32px;
+  padding-bottom: 12px;
+}
+/* ================================= work process css end ================================== */
+/* ================================= portfolio css start ================================== */
+.portfolio_custom_card {
+  width: 424px;
+  border: 1px solid transparent;
+  box-shadow: 0px 12px 64px rgba(28, 25, 25, 0.12);
+  border-radius: 8px;
+  margin-bottom: 24px;
+}
+.portfolio_custom_card_content img {
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+}
+.portfolio_custom_card_element {
+  padding: 33px 32px;
+}
+.portfolio_custom_card_element h2 {
+  color: #87909d;
+  line-height: 16px;
+}
+.portfolio_custom_card_element h4 {
+  color: #132238;
+  line-height: 24px;
+  padding-top: 4px;
+  padding-bottom: 12px;
+}
+.portfolio_custom_card_element p {
+  color: #556070;
+  line-height: 20px;
+  padding-bottom: 14px;
+}
+.portfolio_btn {
+  display: inline-block;
+  border: 1px solid #a53dff;
+  padding: 12px 12px;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+
+  width: 173px;
+}
+.portfolio_btn a {
+  color: #a53dff;
+}
+.portfolio_btn a:first-child {
+  margin-right: 12px;
+}
+.portfolio_btn a:last-child {
+  padding-right: 18px;
+}
+.portfolio_btn2 {
+  display: inline-block;
+  background-color: #a53dff;
+  border: 1px solid transparent;
+  padding: 12px 12px;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+
+  width: 150px;
+  display: flex;
+  text-align: center;
+  margin: 0 auto;
+  margin-bottom: 100px;
+}
+/* ================================= portfolio css end ================================== */
+/* ================================= project idea css start ================================== */
+.project_idea {
+  background-color: #132238;
+  height: 392px;
+}
+.project_idea_content {
+  text-align: center;
+}
+.project_idea_content h3 {
+  color: #fff;
+  width: 621px;
+  margin: 0 auto;
+  margin-top: 100px;
+  padding-bottom: 32px;
+}
+.project_idea_btn {
+  display: inline-block;
+  background-color: #a53dff;
+  border: 1px solid transparent;
+  padding: 12px 12px;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+
+  width: 240px;
+}
+.project_idea_btn a {
+  color: #fff;
+}
+.project_idea_btn a:first-child {
+  margin-right: 12px;
+}
+.project_idea_btn a:last-child {
+  padding-right: 18px;
+}
+/* =================================  project idea css end ================================== */
+/* ================================= what i do? css start ================================== */
+.job_details {
+  background-color: #f0f1f3;
+}
+.job_details_content_item1 {
+  width: 529px;
+  padding: 269px 0px;
+}
+.job_details_content_item1 h2 {
+  color: #333333;
+  line-height: 56px;
+  padding-bottom: 24px;
+}
+.job_details_content_item1 p {
+  color: #87909d;
+  line-height: 24px;
+  padding-bottom: 18px;
+}
+
+.job_details_content_item1 .custom-btn {
+  display: inline-block;
+  margin-right: 24px;
+  margin-top: 50px;
+}
+.job_details_row__custom_css {
+  margin-top: 150px;
+}
+.job_details_content_item2 {
+  width: 582px;
+  background: #ffffff;
+  box-shadow: 0px 32px 96px rgba(28, 25, 25, 0.16);
+  border: 1px solid transparent;
+  border-left: 6px solid transparent;
+  border-radius: 6px;
+  margin-bottom: 20px;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  -ms-border-radius: 6px;
+  -o-border-radius: 6px;
+}
+.job_details_content_item2:hover {
+  border-left: 6px solid #a53dff;
+}
+.job_details_content_item_content {
+  padding-left: 32px;
+}
+.job_details_content_item_content h3 {
+  padding-top: 32px;
+  padding-bottom: 16px;
+  line-height: 24px;
+  color: #132238;
+}
+.job_details_content_item_content p {
+  padding-bottom: 32px;
+  padding-right: 32px;
+  line-height: 24px;
+  color: #556070;
+}
+
+/* ================================= what i do? css end ================================== */
+/* ================================= what i do? css end ================================== */
+.happy_clients {
+  background-color: #f0f1f3;
+  height: 552px;
+}
+.happy_clients_logo {
+  margin-bottom: 100px;
+  height: 200px;
+}
+.happy_clients_logo img {
+  width: 140px;
+}
+.happy_clients_logo img {
+  margin-right: 50px;
+}
+.happy_clients_logo img {
+  transition: all 0.2s;
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+}
+.happy_clients_logo img {
+  float: left;
+  filter: grayscale(100%);
+  -webkit-filter: grayscale(100%);
+  -moz-filter: grayscale(100%);
+}
+.happy_clients_logo img:hover {
+  filter: grayscale(0%);
+  -webkit-filter: grayscale(0%);
+  -moz-filter: grayscale(0%);
+  transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+}
+
+/* ================================= what i do? css end ================================== */
+/* ================================= testimonial css start ================================== */
+.testimonial {
+  background-color: #eceef1;
+  height: 534px;
+}
+.testimonial .common_title {
+  padding-top: 0px;
+}
+.testimonial_content {
+  width: 872px;
+  text-align: center;
+  margin: 0 auto;
+}
+.testimonial_content p {
+  padding-bottom: 24px;
+  color:#2B384C; 
+  line-height: 24px;
+}
+.testimonial_content h3 {
+  padding-bottom: 8px;
+  color:#000000; 
+  line-height: 26px;
+}
+.testimonial_content h4 {
+  padding-bottom: 50px;
+  color:#000000; 
+  line-height: 24px;
+}
+.testimonial_circle a {
+  width: 10px;
+  height: 10px;
+  margin-right: 10px;
+  background-color: #c3c7ce;
+  display: inline-block;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+.testimonial_circle a:hover {
+  width: 38px;
+  height: 10px;
+  background-color: #333333;
+  border-radius: 30px;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  -ms-border-radius: 30px;
+  -o-border-radius: 30px;
+}
+
+/* ================================ testimonial css end ================================== */
+/* ================================ form css start ================================== */
+.form {
+  background-color: #eceef1;
+}
+.form_row_custom__css {
+  background-color: #ffffff;
+  box-shadow: 0px 59px 124px rgba(0, 0, 0, 0.12);
+  border-radius: 15px;
+  position: relative;
+  bottom: -68px;
+}
+.form_content1 {
+  padding-bottom: 88px;
+}
+.form_content_address{
+  margin-top: -40px;
+}
+.form_content_address_item {
+  width: 336px;
+
+  padding: 24px 0px;
+
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  margin-bottom: 12px;
+  display: flex;
+}
+.form_content_address_item:hover {
+  box-shadow: 0px 12px 64px rgba(28, 25, 25, 0.12);
+}
+.form_content_address_item .contact-info h6 {
+  color: #424e60;
+  line-height: 24px;
+}
+.form_content_address_item .contact-info a {
+  color: #132238;
+  line-height: 24px;
+}
+.form_content_address_item .form_icons i {
+  background-color: #f3e9fd;
+  margin-left: 24px;
+}
+
+.form_icons {
+  display: flex;
+  flex-direction: row;
+}
+.form_icons i {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4px;
+
+  width: 48px;
+  height: 48px;
+  font-size: 20px;
+  padding: 15px 15px;
+  color: #a53dff;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+  margin-right: 12px;
+}
+.form_icons i:hover {
+  color: #fff;
+  background-color: #a53dff;
+}
+.form_content2 {
+  padding: 144px 0px;
+  width: 560px;
+}
+
+.form_content2 p {
+  line-height: 24px;
+  color: #87909d;
+}
+.contact_form {
+  margin-top: 50px;
+}
+.contact_form form {
+  display: flex;
+  flex-direction: column;
+  row-gap: 24px;
+}
+.contact_form form input,
+textarea {
+  border: none;
+  outline: none;
+  border-bottom: 1px solid #e5e8eb;
+  padding-bottom: 14px;
+}
+.contact_form form textarea {
+  resize: none;
+}
+.contact_form form input::placeholder,
+textarea::placeholder {
+  font-family: "Work Sans", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #697484;
+}
+.contact_form form input:focus,
+textarea:focus {
+  border-bottom-color: #a53dff;
+}
+.contact_form form input:focus::placeholder,
+textarea:focus::placeholder {
+  color: #a53dff;
+}
+.contact_box :first-child {
+  width: 41%;
+}
+.contact_box :last-child {
+  width: 58%;
+}
+.contact_form button {
+  width: 141px;
+  border: none;
+  outline: none;
+  background-color: #a53dff;
+  color: #ffffff;
+  padding: 12px 0px;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+}
+.contact_form button i {
+  transform: rotate(39deg);
+  -webkit-transform: rotate(39deg);
+  -moz-transform: rotate(39deg);
+  -ms-transform: rotate(39deg);
+  -o-transform: rotate(39deg);
+  padding-left: 12px;
+  font-size: 22px;
+}
+/* ================================ form css end ================================== */
+/* ================================ footer css start================================== */
+footer{
+  background-color: #132238;
+  height: 330px;
+}
+footer .custom__css{
+  align-items: center;
+  justify-content: center;
+}
+.footer_logo{
+padding-right: 46px;
+}
+.footer_logo img{
+  margin-top: 200px;
+  width: 208px;
+}
+.footer_menu ul {
+display: flex;
+column-gap: 24px;
+padding-top: 200px;
+
+}
+.footer_menu ul li :first-child {
+padding-left: 17px;
+}
+.footer_menu ul li a {
+line-height: 24px;
+color: #F0F1F3;
+
+}
+footer .copyright {
+line-height: 24px;
+color: #fff;
+margin-left: 182px;
+padding-top: 200px;
+
+}
+
+
+
+/* ================================ footer css end ================================== */
